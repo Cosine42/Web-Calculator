@@ -1,0 +1,30 @@
+    body{
+        background-image: linear-gradient(rgb(220, 230, 84),rgb(235, 60, 30));
+    }
+    div.outer{
+    width: 400px;
+    height: 500px;
+    background-color: ghostwhite;
+    transform: translate(120%, 30%);
+    
+}
+div.inner{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.output{
+    height: 90px;
+    width: 380px;
+    background-color: rgb(9, 94, 1);
+    transform: translate(10px,10px);
+    font-size: 26pt;
+    text-align: right;
+    color: white;
+    
+}
+.button{
+    height: 70px;
+    width: 80px;
+    font-size: 24pt;
+    background-color: beige;
+}
