@@ -22,7 +22,7 @@ function equals()
     try
     {
     var ans = eval(out.value);
-    if(ans=="Infinity")
+    if(ans=="Infinity" || ans=="-Infinity")
     ans="error";
     out.value = ans;
     }
