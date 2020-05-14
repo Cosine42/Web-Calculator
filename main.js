@@ -38,7 +38,7 @@ function ac()
 function del()
 {
     var s = out.value;
-    if(s=="error" || s=="Infinity" || ans=="-Infinity" || s=="NaN")
+    if(s=="error" || s=="Infinity" || s=="-Infinity" || s=="NaN")
     {
         ac()
     }
